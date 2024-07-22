@@ -1,0 +1,265 @@
+/* Estilizando o corpo da página */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 0;
+    line-height: 1.6;
+    display: relative;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    text-align: center;
+    padding: 20px;
+    background-image: url('./imagens/bandeira-pe.webp');
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+h2 {
+    text-align: center;
+    color : rgb(0, 0, 0);
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Anton SC", sans-serif;
+
+}
+
+p{
+    font-size: 18px;
+    color: #666;
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.flex-container {
+        display: flex;
+        align-items: flex-start; /* Alinha os itens ao início do contêiner */
+        gap: 5px; /* Espaçamento entre a imagem e o texto */
+    
+}
+
+.flex-img {
+    height: 300px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.flex-text {
+    
+    text-align: start; /* Alinha o texto à esquerda */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+/* Estilo dos blocos <main> dentro do contêiner .nav-container */
+}
+
+/* Remove os pontos das listas */
+ul {
+    list-style-type: none;
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+}
+
+.nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-item {
+    background-color: #fcf9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(209, 15, 15, 0.1);
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.nav-item a {
+    margin: auto; /* Centraliza o link dentro do bloco */
+    text-align: center;
+}
+
+/* Estilos específicos para cada link dentro dos blocos .nav-item */
+/* Estilizando os blocos .nav-item */
+.nav-item:nth-of-type(1) {
+    background-color: #8f8ecc; /* Cor de fundo para o primeiro bloco */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(209, 15, 15, 0.1);
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 24px;
+    display: block;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    line-height: 3;
+}
+
+.nav-item:nth-of-type(2) {
+    background-color: #a2d3a2; /* Cor de fundo para o segundo bloco */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(209, 15, 15, 0.1);
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 26px;   
+    display: block;
+    align-items: center;
+    justify-content: center;
+    line-height: 3;
+}
+
+.nav-item:nth-of-type(3) {
+    background-color: #ce8080; /* Cor de fundo para o terceiro bloco */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(209, 15, 15, 0.1);
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 24px;   
+    display: block;
+}
+
+.nav-item:nth-of-type(4) {
+    background-color: #cad15f; /* Cor de fundo para o quarto bloco */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(209, 15, 15, 0.1);
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 23px;   
+    display: block;
+    align-items: center;
+    justify-content: center;
+    line-height: 3;
+}
+
+.nav-item:nth-of-type(5) {
+    background-color: #d189b3; /* Cor de fundo para o quinto bloco */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(209, 15, 15, 0.1);
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    font-size: 24px;   
+    display: block;
+}
+
+.nav-item:nth-of-type(6) {
+    background-color: #e3cae7; /* Cor de fundo para o sexto bloco */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(209, 15, 15, 0.1);
+    padding: 40px;
+    width: 400px;
+    text-align: center;
+    font-size: 14px;   
+    display: block;
+}
+
+.nav-item:nth-of-type(1) {
+    margin-top: 20px; /* Ajuste o valor conforme necessário */
+    
+}
+
+.nav-item:nth-of-type(2) {
+    margin-top: 20px; /* Ajuste o valor conforme necessário */
+    
+}
+
+.nav-item:nth-of-type(3) {
+    margin-top: 20px; /* Ajuste o valor conforme necessário */
+    
+}
+
+
+.nav-item:nth-of-type(4) {
+    margin-top: 20px; /* Ajuste o valor conforme necessário */
+    
+}
+
+.nav-item:nth-of-type(5) {
+    margin-top: 20px; /* Ajuste o valor conforme necessário */
+}
+
+
+.nav-item:nth-of-type(6) a {
+    
+    font-size: 20px; /* Aumenta o tamanho da fonte para o sexto link */
+}
+
+
+
+/* Estilizando os links */
+a:link {
+    color: #40557e;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+}
+
+a:visited {
+    color: #111011;
+}
+
+a:hover {
+    color: #ff5722;
+    text-decoration: underline;
+    background-color: #e8f0fe;
+}
+
+a:active {
+    color: #ff9800;
+    background-color: #dbe9f4;
+}
+
+/* Estilos de layout com Flexbox */
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.flex-img {
+    height: 300px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.flex-text {
+    flex: 1;
+}
+
+/* Estilizando o rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+footer img {
+    max-width: 100px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin: 0 10px;
+}
